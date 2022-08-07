@@ -1,12 +1,7 @@
 {
-  "name": "jscodeshift",
-  "version": "0.13.1",
+  "name": "@sprkl/jscodeshift",
+  "version": "0.13.2",
   "description": "A toolkit for JavaScript codemods",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/jscodeshift.git"
-  },
-  "bugs": "https://github.com/facebook/jscodeshift/issues",
   "main": "index.js",
   "scripts": {
     "prepare": "cp -R src/ dist/",
@@ -52,7 +47,8 @@
     "eslint": "^5.9.0",
     "jest": "^21",
     "jsdoc": "^3.4.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "typescript": "^4.7.4"
   },
   "jest": {
     "roots": [

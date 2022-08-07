@@ -181,6 +181,15 @@ class Collection {
     }
   }
 
+  toTransformedSource(options) {
+    if (this._parent) {
+      return this._parent.toSource(options);
+    }
+
+    return recast.print(this.__paths[0], options);
+  }
+
+
   /**
    * Returns a new collection containing only the element at position index.
    *

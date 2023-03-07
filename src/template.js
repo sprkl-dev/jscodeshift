@@ -8,7 +8,7 @@
 
 'use strict';
 
-const recast = require('recast');
+const recast = require('@sprkl/recast');
 
 const builders = recast.types.builders;
 const types = recast.types.namedTypes;

@@ -10,7 +10,7 @@
 
 const getParser = require('./../../getParser');
 
-const recast = require('recast');
+const recast = require('@sprkl/recast');
 const types = recast.types.namedTypes;
 
 describe('VariableDeclarators', function() {

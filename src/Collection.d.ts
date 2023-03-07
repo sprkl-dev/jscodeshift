@@ -1,6 +1,6 @@
 import nodePath = require("ast-types/lib/node-path");
 import types = require("ast-types/lib/types");
-import recast = require("recast");
+import recast = require("@sprkl/recast");
 import JSXElement = require("./collections/JSXElement");
 import NodeCollection = require("./collections/Node");
 import VariableDeclarator = require("./collections/VariableDeclarator");

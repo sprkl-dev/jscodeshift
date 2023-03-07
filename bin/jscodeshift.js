@@ -110,7 +110,7 @@ const parser = require('../src/argsParser')
           ` - babel: ${require('babel-core').version}`,
           ` - babylon: ${requirePackage('@babel/parser').version}`,
           ` - flow: ${requirePackage('flow-parser').version}`,
-          ` - recast: ${requirePackage('recast').version}\n`,
+          ` - @sprkl/recast: ${requirePackage('@sprkl/recast').version}\n`,
         ].join('\n');
       },
     },

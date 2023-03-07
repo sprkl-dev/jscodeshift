@@ -21,7 +21,7 @@ describe('Collection API', function() {
     jest.resetModuleRegistry();
 
     Collection = require('../Collection');
-    recast = require('recast');
+    recast = require('@sprkl/recast');
 
     NodePath = recast.types.NodePath;
     types = recast.types.namedTypes;

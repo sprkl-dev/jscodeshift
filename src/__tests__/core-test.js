@@ -10,8 +10,11 @@
 
 /*global jest, describe, it, expect*/
 
+console.log('init')
 const core = require('../core');
-const recast = require('recast');
+console.log('core')
+const recast = require('@sprkl/recast');
+console.log('recast')
 const b = recast.types.builders;
 const NodePath = recast.types.NodePath;
 

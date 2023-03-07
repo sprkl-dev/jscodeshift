@@ -35,7 +35,7 @@
     "micromatch": "^3.1.10",
     "neo-async": "^2.5.0",
     "node-dir": "^0.1.17",
-    "recast": "^0.20.4",
+    "@sprkl/recast": "^0.23.2",
     "temp": "^0.8.4",
     "write-file-atomic": "^2.3.0"
   },
